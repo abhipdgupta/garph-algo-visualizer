@@ -1,23 +1,19 @@
 # Graph Algorithm Visualizer
 
-This project is a web-based interactive tool to visualize various graph traversal and pathfinding algorithms. Users can draw their own mazes, select start and end points, and see how algorithms like Dijkstra's, A*, Breadth-First Search (BFS), and Depth-First Search (DFS) explore the graph to find the shortest path.
+This project is a web-based interactive tool to visualize various graph traversal and pathfinding algorithms. Users can draw their own mazes, select start and end points, and see how algorithms like Dijkstra's, A\*, Breadth-First Search (BFS), and Depth-First Search (DFS) explore the graph to find the shortest path.
 
 ## Demo
 
-Here is a video demonstrating the features of the Graph Algorithm Visualizer:
+![demo-gif](./assets/graph-algo-demo-gif.gif)
 
-
-<video src="./assets/graph-algo-demo-video.mp4" width="900" controls></video>
-
-
-*(Note: If the video does not play, you can download it from the `assets` folder in this repository.)*
+_( you can download video it from the `assets` folder in this repository.)_
 
 ## Features
 
 - **Interactive Grid:** Draw and erase walls to create custom mazes.
 - **Algorithm Selection:** Choose from a variety of classic graph algorithms:
   - Dijkstra's Algorithm
-  - A* Search
+  - A\* Search
   - Breadth-First Search (BFS)
   - Depth-First Search (DFS)
 - **Step-by-Step Visualization:** Watch the algorithm's exploration process unfold in real-time.
@@ -50,27 +46,31 @@ To get a local copy up and running, follow these simple steps.
 ## Usage
 
 1.  **Start the development server:**
+
     ```sh
     npm run dev
     ```
+
     This command will watch for changes in the TypeScript files and recompile them.
 
 1.  **Build for production:**
+
     ```sh
     npm run build
     ```
+
     This command compiles the TypeScript code into JavaScript. The output will be in the `dist` folder.
     For deploying to GitHub Pages, ensure that the `dist` folder is pushed to your repository.
 
-2.  **Open the application:**
+1.  **Open the application:**
     Open the `index.html` file in your web browser to use the visualizer.
 
-3.  **How to use the visualizer:**
-    -   Click "Draw Maze" to start creating walls on the grid by clicking and dragging.
-    -   Click "Choose Marker" to set the start (green) and end (red) points.
-    -   Select an algorithm from the dropdown menu.
-    -   Click "Start Algorithm" to begin the visualization.
-    -   Use "Clear Maze" to remove the walls or "Reset" to clear everything.
+1.  **How to use the visualizer:**
+    - Click "Draw Maze" to start creating walls on the grid by clicking and dragging.
+    - Click "Choose Marker" to set the start (green) and end (red) points.
+    - Select an algorithm from the dropdown menu.
+    - Click "Start Algorithm" to begin the visualization.
+    - Use "Clear Maze" to remove the walls or "Reset" to clear everything.
 
 ## Technologies Used
 
